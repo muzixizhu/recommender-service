@@ -2,9 +2,7 @@
 
 Consists of:
 
-1. HTTP service of add/update/delete data about users and videos into DB with address:
-
-    http://data-science-morelegends.westus2.cloudapp.azure.com:7003 with routes
+1. HTTP service of add/update/delete data about users and videos into DB with routes:
     
     ```python
     app = Application([
@@ -18,9 +16,7 @@ Consists of:
 
 2. Service of DB is based on PostgreSQL
 
-3. HTTP service of backend request for making video recommendations with address:
-
-    http://data-science-morelegends.westus2.cloudapp.azure.com:7004 with routes
+3. HTTP service of backend request for making video recommendations with routes:
     
     ```python
     app = Application([
